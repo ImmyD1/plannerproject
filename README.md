@@ -1,7 +1,7 @@
 This is my organiser application. At the top of each page is the navigation to all the other pages.
 
 Homepage (homepage.html)
-On the homepage is the ability to take notes and save them. It uses a NotesAPI created through js. It saves the notes so that you are able to access them if you leave and come back to the site, they are still available to you. If you double click on the note it gives you the opportunity to delete.
+On the homepage is the ability to take notes and save them. It uses the NotesAPI.js uses localsotrage to store some of the data and is exported to the other Notes js files. It saves the notes so that you are able to access them if you leave and come back to the site, they are still available to you. If you double click on the note it gives you the opportunity to delete.
 
 Tasks (task.html)
 This is a simple to-do list application which allows you to type in your tasks and add them to an appending list. Once it has been added, you are able to check it which strikesthrough. Selecting the 'x' removes the object from the list. It also saves your tasks in the web browser using LocalStorage.
