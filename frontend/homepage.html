@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizer Homepage</title>
+  <style>body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  .notes {
+    display: flex;
+    height: 100%;
+  }
+  .notes *{
+    font-family: sans-serif;
+  }
+
+  .notes__sidebar{
+    border-right: 2px solid #dddddd;
+    flex-shrink: 0;
+    overflow-y: auto;
+    padding: 1em;
+    width: 300px;
+  }
+.notes__add{
+  background: #009578;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 0.75em 0;
+  width: 100%;
+}
+
+.notes__add:hover{
+  background: #00af8c;
+}
+
+.notes__list-item{
+  cursor: pointer;
+}
+
+.notes__list-item--selected{
+  background: #eeeeee;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.notes__small-title,
+.notes__small-updated{
+  padding: 10px;
+}
+
+.notes__small-title{
+  font-size: 1.2em;
+}
+
+.notes__small-body{
+  padding: 0 10px;
+}
+
+.notes__small-updated{
+  color: #aaaaaa;
+  font-style: italic;
+  text-align: right;
+}
+
+.notes__preview{
+  display: flex;
+  flex-direction: column;
+  padding: 2em 3em;
+  flex-grow: 1;
+}
+
+.notes__title,
+.notes__body{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.notes__title{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.notes__body{
+  flex-grow: 1;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-top: 2em;
+  resize: none;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="task.html">Tasks</a></li>
+        <li><a href="calendar5.html">Calendar</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="weather.html">Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+<h1>MeOrganiser</h1>
+  <div class="notes" id="app">
+<!--<div class="notes__sidebar">
+  <button class="notes__add" type="button">Add Note</button>
+  <div class="notes__list">
+    <div class="notes__list-item">
+      <div class="notes__small-title">Lecture Notes</div>
+      <div class="notes__small-body">I learnt nothing today</div>
+      <div class="notes__small-updated">Thursday 3:30pm</div>
+    </div>
+  </div>
+</div>
+<div class="notes__preview">
+  <input class="notes__title" type="text" placeholder="Enter a title here...">
+  <textarea class="notes__body" placeholder="I am the notes body..."></textarea>
+</div>-->
+  <script src="./main.js" type="module"></script>
+</div> 
+</body>
+</html>
